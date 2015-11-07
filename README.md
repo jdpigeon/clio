@@ -30,6 +30,7 @@ Toronto 2015 DementiaHack
     cordova plugin add cordova-plugin-geolocation
     cordova plugin add cordova-plugin-inappbrowser
     cordova plugin add uk.co.workingedge.phonegap.plugin.launchnavigator
+    cordova plugin add ../CordovaMuse
 
     # lib update
     npm install
