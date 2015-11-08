@@ -33,6 +33,9 @@ Toronto 2015 DementiaHack
     cordova plugin add ../CordovaMuse
 
     # lib update
+    cordova plugin remove com.cordova.plugins.muse
+    cordova plugin remove cordova-plugin-console
+    npm install cordova-plugin-console
     npm install
     ionic lib update
     bower update
@@ -49,4 +52,7 @@ Toronto 2015 DementiaHack
     
     
 #Credit
-
+Stone Chao(Shitong Zhao) - Developer
+Dave Dowhaniuk - UX
+Dano - Neuroscientist
+Fahad - Sale/Pitch
