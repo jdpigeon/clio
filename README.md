@@ -30,10 +30,10 @@ Toronto 2015 DementiaHack
     cordova plugin add cordova-plugin-geolocation
     cordova plugin add cordova-plugin-inappbrowser
     cordova plugin add uk.co.workingedge.phonegap.plugin.launchnavigator
+    cordova plugin remove com.cordova.plugins.muse
     cordova plugin add www/CordovaMuse
 
     # lib update
-    cordova plugin remove com.cordova.plugins.muse
     cordova plugin remove cordova-plugin-console
     npm install cordova-plugin-console
     npm install
@@ -52,7 +52,7 @@ Toronto 2015 DementiaHack
     
     
 #Credit
-    Stone Chao(Shitong Zhao) - Developer
+    Stone Chao - Developer
     Dave Dowhaniuk - UX
     Dano - Neuroscientist
     Fahad - Sale/Pitch
