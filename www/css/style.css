@@ -1,1 +1,103 @@
 /* Empty. Add your own CSS if you like */
+
+.angular-google-map-container {
+  height: 50%;
+}
+/*.item-image {
+  width: 200px;
+}*/
+.sandbox {
+
+  display: inline-block;
+}
+.box {
+  position: absolute;
+  float: left;
+  margin: -25px 5px 5px -25px;
+  border: 1px solid #888;
+  font-size: 11px;
+  text-align: center;
+  line-height: 50px;
+  background-color: white;
+  font-size: 8px;
+  color: blue;
+  overflow: hidden;
+}
+.small {
+  height: 400px;
+}
+.scroll-content{
+  background: url('../img/epoch_BG.png') no-repeat center;
+}
+ .clio_bg{
+   background: url('../img/epoch_BG.png') no-repeat center;
+ }
+.pane, .view, .ion-content,ion-view,ion-nav-view{
+  background: url('../img/epoch_BG.png') no-repeat center;
+}
+.pane {
+  background-color: #000;
+}
+.background, .background .pane, .background .item, .background .item-complex .item-content {
+  background-color: yellow;
+}
+#destMap{
+  min-height: 120px;
+  max-height: 150px;
+}
+#submit{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+
+}
+#submit img{
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 50px;
+}
+#submit span{
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.6);;
+  font-size:3em;
+}
+#ball {
+  width:50px;
+  height:50px;
+  border:3px solid #900;
+  border-radius:50%;
+  position:fixed;
+}
+
+#map{
+  height: 90px;
+}
+
+#compassContainer{
+  height: 40%;
+}
+
+.scroll {
+  height: 100%;
+  background: url('../img/epoch_BG.png') no-repeat center;
+}
+
+.list{
+  margin-top: 50px;
+
+}
+.myCenterCardContent{
+  background: url('../img/ionic.png') no-repeat center;
+  background-size: 300px 300px;
+  text-align: center;
+  height: 300px;
+}
+.myCenterCardContent .p{
+  height: 40%;
+  font-size: 2em;
+  color:black;
+  margin-top: 30%;
+}

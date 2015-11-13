@@ -1,50 +1,34 @@
 angular.module('starter.services', [])
+  .factory('Records', function() {
+    // Might use a resource here that returns a JSON array
 
-.factory('Chats', function() {
-  // Might use a resource here that returns a JSON array
+    // Some fake testing data
+    var records = [];
 
-  // Some fake testing data
-  var chats = [{
-    id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'img/ben.png'
-  }, {
-    id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'img/max.png'
-  }, {
-    id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
-  }, {
-    id: 3,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'img/perry.png'
-  }, {
-    id: 4,
-    name: 'Mike Harrington',
-    lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
-  }];
-
-  return {
-    all: function() {
-      return chats;
-    },
-    remove: function(chat) {
-      chats.splice(chats.indexOf(chat), 1);
-    },
-    get: function(chatId) {
-      for (var i = 0; i < chats.length; i++) {
-        if (chats[i].id === parseInt(chatId)) {
-          return chats[i];
+    return {
+      set:function(a){
+        records=a;
+      },
+      reset:function(){
+        records=[];
+      },
+      addRecord:function(record){
+        record.id=records.length
+        records.push(record)
+      },
+      all: function() {
+        return records;
+      },
+      remove: function(record) {
+        records.splice(records.indexOf(record), 1);
+      },
+      get: function(recordId) {
+        for (var i = 0; i < records.length; i++) {
+          if (records[i].id === parseInt(recordId)) {
+            return records[i];
+          }
         }
+        return null;
       }
-      return null;
-    }
-  };
-});
+    };
+  });
