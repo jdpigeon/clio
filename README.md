@@ -30,7 +30,7 @@ Toronto 2015 DementiaHack
     cordova plugin add cordova-plugin-geolocation
     cordova plugin add cordova-plugin-inappbrowser
     cordova plugin add uk.co.workingedge.phonegap.plugin.launchnavigator
-    cordova plugin remove com.cordova.plugins.muse
+    cordova plugin rm com.cordova.plugins.muse
     cordova plugin add www/CordovaMuse
 
     # lib update
