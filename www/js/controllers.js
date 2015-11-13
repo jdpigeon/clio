@@ -55,7 +55,7 @@ angular.module('commons', ['lodash','ionic', 'ui.router','ngCordova'])
     }
     $scope.getScore = function(records){
       var ratio = (Math.pow(2.71828, $scope.AlphaPower(records)) + Math.pow(2.71828, $scope.BetaPower(records))) / Math.pow(2.71828, $scope.ThetaPower(records))
-      return ($scope.toFix2((ratio / 1.8) * 100)||0.00) + '%'
+      return ($scope.toFix2((ratio / 2.4) * 100)||0.00) + '%'
     }
     $scope.minute=60*1000
     $scope.mean = function(records,tag1,tag2){

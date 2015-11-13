@@ -1,10 +1,10 @@
 
 <ion-view view-title="Scan">
   <ion-content class="padding" scroll="false">
-    <div class="list card">
+    <!--<div class="list card">
 
       <div class="item item-image">
-        <!--<img class="small" src="img/cinema.png">-->
+        &lt;!&ndash;<img class="small" src="img/cinema.png">&ndash;&gt;
         <div class="item myCenterCardContent" style="background-image: url('img/epoch_Brain_Outline.png');" >
 
         </div>
@@ -12,17 +12,28 @@
 
 
       <div class="item item-image ">
-       <!-- <img class="small" on-touch="go('tab.scanning')" ng-src="{{img.scan}}" >-->
+       &lt;!&ndash; <img class="small" on-touch="go('tab.scanning')" ng-src="{{img.scan}}" >&ndash;&gt;
         <div class="item myCenterCardContent" style="background-image: url('img/ionic.png'); background-size: 200px 200px;" on-touch="go('tab.scanning')" >
           <p class="p" style="">
-            Scan
+            PushToScan
           </p>
         </div>
       </div>
 
 
-    </div>
+    </div>-->
+    <div class="list card">
 
+      <div class="item item-avatar">
+        <img src="img/mind.png">
+        <h2>Epoch</h2>
+      </div>
+
+      <div class="item myCenterCardContent" on-touch="go('tab.scanning')">
+        <p class="p">
+          Scan
+        </p>
+      </div>
   </ion-content>
 </ion-view>
 
